@@ -4,4 +4,5 @@ from . import views
 
 urlpatterns = [
     path('forecast', views.index),
+    path('home', views.home),
 ]
